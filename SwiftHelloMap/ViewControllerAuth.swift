@@ -1,5 +1,5 @@
 //
-//  ViewControllerNotif.swift
+//  ViewControllerAuth.swift
 //  SwiftHelloMap
 //
 //  Created by Роман Лабунский on 06.04.2019.
@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewControllerNotif: UIViewController {
-
+class ViewControllerAuth: UIViewController {
+    // http://192.168.100.82:8080
+    @IBOutlet weak var NumberLabel: UITextField!
+    @IBOutlet weak var btn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        //btn.isHidden = true
         // Do any additional setup after loading the view.
     }
     
@@ -26,5 +30,22 @@ class ViewControllerNotif: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func BtnAction(_ sender: UIButton) {
+        if NumberLabel.text?.count != 11{
+            btn.isEnabled = true
+        }else{
+            btn.isHidden = false
+        }
+        
 
+        
+    }
+    @IBAction func CheckAuth(_ sender: Any) {
+        if NumberLabel.text?.count != 11{
+            btn.isEnabled = true
+        }else{
+            btn.isEnabled = false
+        }
+    }
+    
 }

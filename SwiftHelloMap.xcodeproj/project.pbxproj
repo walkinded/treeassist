@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		C1A4FE0B22563F0E004861D8 /* NMAKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A4FE0A22563F0E004861D8 /* NMAKit.framework */; };
 		C1A4FE0C22563F0E004861D8 /* NMAKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C1A4FE0A22563F0E004861D8 /* NMAKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD1CE214225A006F0002CF94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1CE213225A006E0002CF94 /* Images.xcassets */; };
+		CD1CE216225A02350002CF94 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1CE215225A02340002CF94 /* logo2.png */; };
+		CD44051922598CB700B63621 /* QRTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44051822598CB700B63621 /* QRTestViewController.swift */; };
+		CD44051B2259D03700B63621 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44051A2259D03700B63621 /* ProfileViewController.swift */; };
+		CD44051D2259E79400B63621 /* OrderBrasletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44051C2259E79400B63621 /* OrderBrasletVC.swift */; };
+		CD4405222259F2E700B63621 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4405212259F2E700B63621 /* RatingViewController.swift */; };
+		CD4405242259F63000B63621 /* RatingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4405232259F63000B63621 /* RatingTableViewCell.swift */; };
+		CD46AF392259868C00AF0DF4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD46AF382259868C00AF0DF4 /* WebViewController.swift */; };
 		CD741F2C22590C8000B4CA9A /* NotificationTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD741F2B22590C8000B4CA9A /* NotificationTableView.swift */; };
-		CD741F2E2259103300B4CA9A /* ViewControllerNotif.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD741F2D2259103300B4CA9A /* ViewControllerNotif.swift */; };
+		CD741F30225917FA00B4CA9A /* QRReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD741F2F225917FA00B4CA9A /* QRReader.swift */; };
+		CD741F322259196100B4CA9A /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD741F312259196100B4CA9A /* NotificationCell.swift */; };
+		CD741F3422593CDE00B4CA9A /* ViewControllerAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD741F3322593CDE00B4CA9A /* ViewControllerAuth.swift */; };
 		F2A7871D1AD5C16700C3DCD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7871C1AD5C16700C3DCD6 /* AppDelegate.swift */; };
 		F2A7871F1AD5C16700C3DCD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A7871E1AD5C16700C3DCD6 /* ViewController.swift */; };
 		F2A787221AD5C16700C3DCD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A787201AD5C16700C3DCD6 /* Main.storyboard */; };
-		F2A787241AD5C16700C3DCD6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A787231AD5C16700C3DCD6 /* Images.xcassets */; };
 		F2A787271AD5C16700C3DCD6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A787251AD5C16700C3DCD6 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
@@ -34,15 +43,24 @@
 
 /* Begin PBXFileReference section */
 		C1A4FE0A22563F0E004861D8 /* NMAKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NMAKit.framework; sourceTree = "<group>"; };
+		CD1CE213225A006E0002CF94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD1CE215225A02340002CF94 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		CD44051822598CB700B63621 /* QRTestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRTestViewController.swift; sourceTree = "<group>"; };
+		CD44051A2259D03700B63621 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CD44051C2259E79400B63621 /* OrderBrasletVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderBrasletVC.swift; sourceTree = "<group>"; };
+		CD4405212259F2E700B63621 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		CD4405232259F63000B63621 /* RatingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingTableViewCell.swift; sourceTree = "<group>"; };
+		CD46AF382259868C00AF0DF4 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CD741F2B22590C8000B4CA9A /* NotificationTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableView.swift; sourceTree = "<group>"; };
-		CD741F2D2259103300B4CA9A /* ViewControllerNotif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerNotif.swift; sourceTree = "<group>"; };
+		CD741F2F225917FA00B4CA9A /* QRReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReader.swift; sourceTree = "<group>"; };
+		CD741F312259196100B4CA9A /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		CD741F3322593CDE00B4CA9A /* ViewControllerAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerAuth.swift; sourceTree = "<group>"; };
 		F22950BA1B014FC400B1F0A0 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		F2A787171AD5C16700C3DCD6 /* SwiftHelloMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftHelloMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A7871B1AD5C16700C3DCD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2A7871C1AD5C16700C3DCD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2A7871E1AD5C16700C3DCD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2A787211AD5C16700C3DCD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F2A787231AD5C16700C3DCD6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2A787261AD5C16700C3DCD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +76,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD44051E2259EF7B00B63621 /* Rating */ = {
+			isa = PBXGroup;
+			children = (
+				CD4405212259F2E700B63621 /* RatingViewController.swift */,
+				CD4405232259F63000B63621 /* RatingTableViewCell.swift */,
+			);
+			name = Rating;
+			sourceTree = "<group>";
+		};
+		CD46AF3A225987C600AF0DF4 /* QRScaner */ = {
+			isa = PBXGroup;
+			children = (
+				CD741F2F225917FA00B4CA9A /* QRReader.swift */,
+				CD46AF382259868C00AF0DF4 /* WebViewController.swift */,
+			);
+			name = QRScaner;
+			sourceTree = "<group>";
+		};
+		CD46AF3B225987E100AF0DF4 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				CD741F2B22590C8000B4CA9A /* NotificationTableView.swift */,
+				CD741F312259196100B4CA9A /* NotificationCell.swift */,
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
 		F2A7870E1AD5C16700C3DCD6 = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +126,17 @@
 			children = (
 				F2A7871C1AD5C16700C3DCD6 /* AppDelegate.swift */,
 				F2A7871E1AD5C16700C3DCD6 /* ViewController.swift */,
+				CD44051C2259E79400B63621 /* OrderBrasletVC.swift */,
+				CD44051822598CB700B63621 /* QRTestViewController.swift */,
+				CD44051A2259D03700B63621 /* ProfileViewController.swift */,
+				CD741F3322593CDE00B4CA9A /* ViewControllerAuth.swift */,
+				CD44051E2259EF7B00B63621 /* Rating */,
+				CD46AF3B225987E100AF0DF4 /* Notification */,
+				CD46AF3A225987C600AF0DF4 /* QRScaner */,
 				F2A787201AD5C16700C3DCD6 /* Main.storyboard */,
-				CD741F2B22590C8000B4CA9A /* NotificationTableView.swift */,
-				CD741F2D2259103300B4CA9A /* ViewControllerNotif.swift */,
 				F2A787251AD5C16700C3DCD6 /* LaunchScreen.xib */,
-				F2A787231AD5C16700C3DCD6 /* Images.xcassets */,
+				CD1CE213225A006E0002CF94 /* Images.xcassets */,
+				CD1CE215225A02340002CF94 /* logo2.png */,
 				F2A7871A1AD5C16700C3DCD6 /* Supporting Files */,
 			);
 			path = SwiftHelloMap;
@@ -162,9 +213,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD1CE214225A006F0002CF94 /* Images.xcassets in Resources */,
 				F2A787221AD5C16700C3DCD6 /* Main.storyboard in Resources */,
 				F2A787271AD5C16700C3DCD6 /* LaunchScreen.xib in Resources */,
-				F2A787241AD5C16700C3DCD6 /* Images.xcassets in Resources */,
+				CD1CE216225A02350002CF94 /* logo2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,10 +227,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD741F30225917FA00B4CA9A /* QRReader.swift in Sources */,
 				F2A7871F1AD5C16700C3DCD6 /* ViewController.swift in Sources */,
+				CD741F3422593CDE00B4CA9A /* ViewControllerAuth.swift in Sources */,
 				CD741F2C22590C8000B4CA9A /* NotificationTableView.swift in Sources */,
+				CD46AF392259868C00AF0DF4 /* WebViewController.swift in Sources */,
+				CD741F322259196100B4CA9A /* NotificationCell.swift in Sources */,
+				CD44051B2259D03700B63621 /* ProfileViewController.swift in Sources */,
 				F2A7871D1AD5C16700C3DCD6 /* AppDelegate.swift in Sources */,
-				CD741F2E2259103300B4CA9A /* ViewControllerNotif.swift in Sources */,
+				CD4405242259F63000B63621 /* RatingTableViewCell.swift in Sources */,
+				CD4405222259F2E700B63621 /* RatingViewController.swift in Sources */,
+				CD44051922598CB700B63621 /* QRTestViewController.swift in Sources */,
+				CD44051D2259E79400B63621 /* OrderBrasletVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +383,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -348,6 +409,7 @@
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -12,6 +12,7 @@ import NMAKit
 
 class ViewController: UIViewController
 {
+    
     @IBOutlet weak var mapView: NMAMapView!
         private var mapMarker : NMAMapMarker?
     private class Defaults {
@@ -20,10 +21,13 @@ class ViewController: UIViewController
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         mapView.useHighResolutionMap = true
-        mapView.zoomLevel = 13.2
+        mapView.zoomLevel = 11.2
         mapView.set(geoCenter: NMAGeoCoordinates(latitude: 44.715855, longitude: 37.791237), animation: .linear)
         mapView.copyrightLogoPosition = NMALayoutPosition.bottomCenter
+        
     }
+   
+    /*
     private func createMapMarker() {
         let geoCoord = NMAGeoCoordinates(latitude: 44.689243, longitude: 37.792877)
         //create NMAMapMarker located with geo coordinate and icon image
@@ -32,7 +36,7 @@ class ViewController: UIViewController
         //add NMAMapMarker to map view
         _ = mapMarker.map{ _ in mapView.add(mapMarker1!) }
     }
-    /*
+     
     func addMapMarker() {
         if mapMarker == nil {
             let coordinates: NMAGeoCoordinates =
@@ -43,4 +47,20 @@ class ViewController: UIViewController
         }
     }
  */
+    
+    
+    
+    @IBAction func CallHelpBtn(_ sender: Any) {
+        let alertController = UIAlertController(title: "Вызов помощи", message: "Вы действительно хотите вызвать помошь?", preferredStyle: .alert)
+        
+        let action = UIAlertAction(title: "Да", style: .default) { (action) in }
+        let exit = UIAlertAction(title: "Выйти", style: .cancel) { (action) in }
+        
+        
+        alertController.addAction(action)
+        self.present(alertController, animated: true, completion: nil)
+        
+        alertController.addAction(exit)
+        self.present(alertController, animated: true, completion: nil)
+    }
 }
